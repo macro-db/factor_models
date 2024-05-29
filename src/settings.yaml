@@ -4,155 +4,86 @@
    # Indicadores de la actividad industrial - Series desestazionarizadas
 SR17536: # Indice de volumen Total
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: banxico
 SR17537: # Indice de volumen Minería
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: banxico
 SR17538: # Indice de volumen Electricidad Agua y Gas
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: banxico
 SR17539: # Indice de volumen Construcción
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: banxico
 SR17540: # Indice de volumen Manufactureras
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: banxico
 
    # Indicador Global de la Actividad Económica (IGAE) - Series desestazionarizadas
 737219: # Total
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
 737226: # Primario
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
 737233: # Secundario
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
 737268: # Terciario
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
 
    # Porcentaje de uso de capacidad instalada - Promedio mensual
 SR16967:
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 1"
-   source: banxico
 
    ################################# GRUPO 2 (Labor Market) #################################
 # Laboral:
 
 444884: # Tasa de desocupación > Total > Serie desestacionalizada
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 2"
-   source: INEGI
 
    # Revisión de salarios contractuales
 SL136: # Número de empresas
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL137: # Número de personas
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL138: # Incremento salarial contractual (%)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 
 SL11136: # Salarios contractuales Revisiones salariales Incremento salarial manufacturas (%)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL11138: # Salarios contractuales Revisiones salariales Número de trabajadores manufacturas
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL11139: # Salarios contractuales Revisiones salariales Número de trabajadores otros sectores
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL2830: # Salarios contractuales Revisiones salariales Incremento salarial empresas privadas (%)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL5114: # Número de trabajadores empresas privadas
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
    
    # Remuneraciones y productividad
 SL11439: # Remuneraciones Medias Nominales por Persona Ocupada (Industria Manufacturera)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL11453: # Remuneraciones Medias Reales por Persona Ocupada (Industria Manufacturera)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL11432: # Remuneraciones Medias Reales por Persona Ocupada (Comercio)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 SL11426: # Remuneraciones Medias Nominales por Persona Ocupada (Comercio) 
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 2"
-   source: banxico
 
 ################################# GRUPO 3 (Housing) #################################
    
@@ -160,135 +91,67 @@ SL11426: # Remuneraciones Medias Nominales por Persona Ocupada (Comercio)
 ################################# GRUPO 4 (Consumption, orders, inventories) #################################
 SR17449: # Indice de volumen del indicador mensual del consumo privado en el mercado interior (series desestacionalizadas) Total
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 4"
-   source: banxico
 SR17450: # Indice de volumen del indicador mensual del consumo privado en el mercado interior (series desestacionalizadas) Total Bienes y servicios de origen nacional
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 4"
-   source: banxico
 SR17451: # Indice de volumen del indicador mensual del consumo privado en el mercado interior (series desestacionalizadas) Total Bienes y servicios de origen nacional Bienes
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 4"
-   source: banxico
 SR17452: # Indice de volumen del indicador mensual del consumo privado en el mercado interior (series desestacionalizadas) Total Bienes y servicios de origen nacional Servicios
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 4"
-   source: banxico
 SR17453: # Indice de volumen del indicador mensual del consumo privado en el mercado interior (series desestacionalizadas) Total Bienes importados
    transformation: 5
-   stationary: 0
-   sa: 1
    group: "Group 4"
-   source: banxico
 
 # Indice Regional de Pedidos Manufactureros (IRPM) 
 SR16882: # IPM - Región Norte (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 SR16894: # IPM - Región Centro Norte (Mes actual Vs. Mes anterior) 
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 SR16906: # IPM - Región Centro (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 SR16918: # IPM - Región Sur (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
    
 # Indice Regional de Pedidos No Manufactureros (IRPNM)
 SR2761: # IPNM - Región Norte (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 SR2768: # IPNM - Región Centro Norte (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 SR2775: # IPNM - Región Centro (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 SR2782:  # IPNM - Región Sur (Mes actual Vs. Mes anterior)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 4"
-   source: banxico
 
 
 ################################# GRUPO 5 (Money and Credit) #################################
 # Agregados monetarios
 SF311408: # Agregados Monetarios M1
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 5"
-   source: banxico
 SF311418: # Agregados Monetarios M2
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 5"
-   source: banxico
 SF311433: # Agregados Monetarios M3
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 5"
-   source: banxico
 SF311438: # Agregados Monetarios M4
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 5"
-   source: banxico
 
 SF29652: # Base Monetaria - Saldos
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 5"
-   source: banxico
-
-SF235719: # Banca comercial Cartera de crédito vigente total al sector privado 1/ Saldos nominales en millones de pesos B. Cartera vigente total por destino del crédito B.3 Empresas y personas físicas con actividad empresarial
-   transformation: 5
-   stationary: 0
-   sa: 0
-   group: "Group 5"
-   source: banxico
-
-SF235716: # Banca comercial Cartera de crédito vigente total al sector privado 1/ Saldos nominales en millones de pesos B. Cartera vigente total por destino del crédito B.2 Vivienda
-   transformation: 5
-   stationary: 0
-   sa: 0
-   group: "Group 5"
-   source: banxico
 
 
 ################################# GRUPO 6 (Interest and exchange rates) #################################
@@ -296,44 +159,26 @@ SF235716: # Banca comercial Cartera de crédito vigente total al sector privado 
    # Valores públicos
 SF282: # Cetes 28 días Tasa de rendimiento promedio mensual, en por ciento anual
    transformation: 2
-   stationary: 0
-   sa: 0
    group: "Group 6"
-   source: banxico
 
 # Tipos de cambio
 SF57805: # USD Estados Unidos de América (Dólar)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 6"
-   source: banxico
 SF57771: # CAD Canadá (Dólar)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 6"
-   source: banxico
 SF57923: # EUR Unión Monetaria Europea (Euro 4/)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 6"
-   source: banxico
 SF229267: # CNH China (Yuan extracontinental 2/)
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 6"
-   source: banxico
 
 # Indice del tipo de cambio real
 SR28: # Indice de tipo de cambio real, ITCR Cálculo del indice de tipo de cambio real Con precios consumidor y con respecto a 111 países
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 6"
-   source: banxico
 
    
 ################################# GRUPO 7 (Prices) #################################
@@ -343,190 +188,103 @@ SR28: # Indice de tipo de cambio real, ITCR Cálculo del indice de tipo de cambi
    #Indice de precios de comercio exterior
 SP12754: # INDICE GENERAL DE PRECIOS DE LAS EXPORTACIONES EN DOLARES
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP12755: # INDICE GENERAL DE PRECIOS DE LAS IMPORTACIONES EN DOLARES
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP12753: # INDICE DE TERMINOS DE INTERCAMBIO EN DOLARES
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 
 673095: # INPP sin Petróleo y con Servicios
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: INEGI
 
 673096: # INPP con Petróleo y con Servicios
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: INEGI
 
 673097: # Actividades primarias
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: INEGI
 
 673098: # Actividades secundarias sin petróleo
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: INEGI
 
 673099: # Actividades secundarias con petróleo
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: INEGI
 
 673100: # Actividades terciarias
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: INEGI
 
 # Indices de Precios al Consumidor y UDIS
 SP1: # Precios al Consumidor (INPC) - (SP1)
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 
 SP74625: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP74626: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP66540: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías Alimentos, Bebidas y Tabaco
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP74627: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías Mercancías no Alimenticias
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP74628: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP66542: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Vivienda
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP56339: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Educación (colegiaturas)
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP74629: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Otros Servicios
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 
 SP74630: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP56337: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP56385: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios Frutas y Verduras
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP56386: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios Pecuarios
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP74631: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP56373: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno Energéticos
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 SP74640: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno Tarifas Autorizadas por el Gobierno
    transformation: 6
-   stationary: 0
-   sa: 0
    group: "Group 7"
-   source: banxico
 
 
 ################################# GRUPO 8 (Stock Market) #################################
 # Valores en circulación
 SF117754: # Valores Gubernamentales Circulación Total
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 8"
-   source: banxico
 SF4782: # Indice de precios y cotizaciones Indice general
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 8"
-   source: banxico
 SF4774: # Valor de las acciones en circulación en la Bolsa Mexicana de Valores Por sector de actividad económica Total
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 8"
-   source: banxico
 SF4801: # Operaciones en el Mercado Bursátil Valores en Renta Variable en el Mercado de Capitales Total
    transformation: 5
-   stationary: 0
-   sa: 0
    group: "Group 8"
-   source: banxico
 ...

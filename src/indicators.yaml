@@ -1,106 +1,76 @@
 736181: # PIB
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
-65585: #PIB 1993 DESCONTINUADO
+65585: #PIB 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 65587: # IMPOR 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 65591: # CONSUMO GOBIERNO 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 65593: # CONSUMO PRIVADO 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 65595: # FCBF 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 65597: # EXPORTACION 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 130822: #VARIACION EXISTENCIA 1993
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 
 
 162374: # PIB 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 162376: # IMPORTACIONES 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 162382: # CONSUMO PRIVADO 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 162380: #CONSUMO GOBIERNO 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 162384: # FCBF 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 162388: # EXISTENCIAS 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
 
 162386: # EXPORTACION 2003
    transformation: 1
-   stationary: 0
-   sa: 1
    group: "Group 1"
-   source: INEGI
+   
