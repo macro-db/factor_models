@@ -5,9 +5,8 @@ import seaborn as sns
 
 from utils import read_yaml
 
-df = pd.read_csv("data/QD_2024_05_22.csv")
-df["fecha"] = pd.to_datetime(df["fecha"], format="%Y-%m-%d")
-df.set_index("fecha", inplace=True)
+df = pd.read_csv("data/2019-07-transformed.csv")
+df.set_index("date", inplace=True)
 
 
 #### DATA GROUPS ####
@@ -27,7 +26,7 @@ factor_orders = {
     'Group 8': 1,
     'Global': 4}
 
-endog_m = df.loc['2000':, :]
+endog_m = df.loc['1990':, :]
 #print(endog_m['SR17536'])
 
 # Construct the dynamic factor model

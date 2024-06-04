@@ -59,7 +59,7 @@ SL11136: # Salarios contractuales Revisiones salariales Incremento salarial manu
    transformation: 5
    group: "Group 2"
 SL11138: # Salarios contractuales Revisiones salariales Número de trabajadores manufacturas
-   transformation: 5
+   transformation: 1
    group: "Group 2"
 SL11139: # Salarios contractuales Revisiones salariales Número de trabajadores otros sectores
    transformation: 5
