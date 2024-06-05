@@ -187,89 +187,89 @@ SR28: # Indice de tipo de cambio real, ITCR Cálculo del indice de tipo de cambi
 
    #Indice de precios de comercio exterior
 SP12754: # INDICE GENERAL DE PRECIOS DE LAS EXPORTACIONES EN DOLARES
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP12755: # INDICE GENERAL DE PRECIOS DE LAS IMPORTACIONES EN DOLARES
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP12753: # INDICE DE TERMINOS DE INTERCAMBIO EN DOLARES
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 673095: # INPP sin Petróleo y con Servicios
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 673096: # INPP con Petróleo y con Servicios
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 673097: # Actividades primarias
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 673098: # Actividades secundarias sin petróleo
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 673099: # Actividades secundarias con petróleo
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 673100: # Actividades terciarias
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 # Indices de Precios al Consumidor y UDIS
 SP1: # Precios al Consumidor (INPC) - (SP1)
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 SP74625: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP74626: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP66540: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías Alimentos, Bebidas y Tabaco
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP74627: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías Mercancías no Alimenticias
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP74628: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP66542: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Vivienda
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP56339: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Educación (colegiaturas)
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP74629: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Otros Servicios
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 SP74630: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP56337: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP56385: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios Frutas y Verduras
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP56386: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios Pecuarios
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP74631: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP56373: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno Energéticos
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 SP74640: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno Tarifas Autorizadas por el Gobierno
-   transformation: 6
+   transformation: 1
    group: "Group 7"
 
 
