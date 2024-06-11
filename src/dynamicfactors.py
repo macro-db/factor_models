@@ -5,7 +5,7 @@ import seaborn as sns
 
 from utils import read_yaml
 
-df = pd.read_csv("data/2019-07-transformed.csv")
+df = pd.read_csv("data/transformed.csv")
 df.set_index("date", inplace=True)
 
 

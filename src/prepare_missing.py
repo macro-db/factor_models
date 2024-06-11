@@ -103,5 +103,5 @@ if __name__ == "__main__":
     data.index.name = 'date'
 
     transformed_data = prepare_missing(data, tcode)
-    transformed_data.to_csv('./data/2019-07-transformed.csv')
+    transformed_data.to_csv('./data/transformed.csv')
 
