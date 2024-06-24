@@ -1,76 +1,76 @@
 736181: # PIB
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 65585: #PIB 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 65587: # IMPOR 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 65591: # CONSUMO GOBIERNO 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 65593: # CONSUMO PRIVADO 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 65595: # FCBF 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 65597: # EXPORTACION 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 130822: #VARIACION EXISTENCIA 1993
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 
 
 162374: # PIB 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 162376: # IMPORTACIONES 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 162382: # CONSUMO PRIVADO 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 162380: #CONSUMO GOBIERNO 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 162384: # FCBF 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 162388: # EXISTENCIAS 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    
 
 162386: # EXPORTACION 2003
-   transformation: 1
+   transformation: 5
    group: "Group 1"
    

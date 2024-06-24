@@ -15,16 +15,16 @@ indicator_series = read_yaml("src/indicators.yaml")
 series = {**setting_series, **indicator_series}
 
 factors = {str(serie) : ['Global', series[serie]['group']] for serie in series}
-factor_multiplicities = {'Global': 2}
+factor_multiplicities = {'Global': 1}
 factor_orders = {
-    'Group 1': 1,
-    'Group 2': 1,
-    'Group 4': 1,
-    'Group 5': 1,
-    'Group 6': 1,
-    'Group 7': 1,
-    'Group 8': 1,
-    'Global': 4}
+    'Group 1': 2,
+    'Group 2': 2,
+    'Group 4': 2,
+    'Group 5': 2,
+    'Group 6': 2,
+    'Group 7': 2,
+    'Group 8': 2,
+    'Global': 2}
 
 endog_m = df.loc['1990':, :]
 #print(endog_m['SR17536'])
@@ -51,7 +51,7 @@ with sns.color_palette('deep'):
 
 # Get estimates of the global and labor market factors,
 # conditional on the full dataset ("smoothed")
-factor_names = ['Global.1', 'Global.2']
+factor_names = ['Global']
 mean = results.factors.smoothed[factor_names]
 
 # Compute 95% confidence intervals

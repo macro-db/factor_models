@@ -34,41 +34,26 @@ SR17540: # Indice de volumen Manufactureras
 
    # Porcentaje de uso de capacidad instalada - Promedio mensual
 SR16967:
-   transformation: 5
+   transformation: 1
    group: "Group 1"
 
    ################################# GRUPO 2 (Labor Market) #################################
 # Laboral:
 
 444884: # Tasa de desocupación > Total > Serie desestacionalizada
-   transformation: 5
+   transformation: 1
    group: "Group 2"
 
    # Revisión de salarios contractuales
-SL136: # Número de empresas
-   transformation: 5
-   group: "Group 2"
-SL137: # Número de personas
-   transformation: 5
-   group: "Group 2"
 SL138: # Incremento salarial contractual (%)
-   transformation: 5
+   transformation: 1
    group: "Group 2"
 
 SL11136: # Salarios contractuales Revisiones salariales Incremento salarial manufacturas (%)
-   transformation: 5
-   group: "Group 2"
-SL11138: # Salarios contractuales Revisiones salariales Número de trabajadores manufacturas
    transformation: 1
    group: "Group 2"
-SL11139: # Salarios contractuales Revisiones salariales Número de trabajadores otros sectores
-   transformation: 5
-   group: "Group 2"
 SL2830: # Salarios contractuales Revisiones salariales Incremento salarial empresas privadas (%)
-   transformation: 5
-   group: "Group 2"
-SL5114: # Número de trabajadores empresas privadas
-   transformation: 5
+   transformation: 1
    group: "Group 2"
    
    # Remuneraciones y productividad
@@ -107,30 +92,30 @@ SR17453: # Indice de volumen del indicador mensual del consumo privado en el mer
 
 # Indice Regional de Pedidos Manufactureros (IRPM) 
 SR16882: # IPM - Región Norte (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 SR16894: # IPM - Región Centro Norte (Mes actual Vs. Mes anterior) 
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 SR16906: # IPM - Región Centro (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 SR16918: # IPM - Región Sur (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
    
 # Indice Regional de Pedidos No Manufactureros (IRPNM)
 SR2761: # IPNM - Región Norte (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 SR2768: # IPNM - Región Centro Norte (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 SR2775: # IPNM - Región Centro (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 SR2782:  # IPNM - Región Sur (Mes actual Vs. Mes anterior)
-   transformation: 5
+   transformation: 4
    group: "Group 4"
 
 
@@ -158,7 +143,7 @@ SF29652: # Base Monetaria - Saldos
 # Tasas y precios de referencia
    # Valores públicos
 SF282: # Cetes 28 días Tasa de rendimiento promedio mensual, en por ciento anual
-   transformation: 2
+   transformation: 1
    group: "Group 6"
 
 # Tipos de cambio
@@ -187,89 +172,89 @@ SR28: # Indice de tipo de cambio real, ITCR Cálculo del indice de tipo de cambi
 
    #Indice de precios de comercio exterior
 SP12754: # INDICE GENERAL DE PRECIOS DE LAS EXPORTACIONES EN DOLARES
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP12755: # INDICE GENERAL DE PRECIOS DE LAS IMPORTACIONES EN DOLARES
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP12753: # INDICE DE TERMINOS DE INTERCAMBIO EN DOLARES
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 673095: # INPP sin Petróleo y con Servicios
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 673096: # INPP con Petróleo y con Servicios
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 673097: # Actividades primarias
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 673098: # Actividades secundarias sin petróleo
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 673099: # Actividades secundarias con petróleo
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 673100: # Actividades terciarias
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 # Indices de Precios al Consumidor y UDIS
 SP1: # Precios al Consumidor (INPC) - (SP1)
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 SP74625: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP74626: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP66540: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías Alimentos, Bebidas y Tabaco
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP74627: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Mercancías Mercancías no Alimenticias
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP74628: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP66542: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Vivienda
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP56339: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Educación (colegiaturas)
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP74629: # Subíndices subyacente y complementarios Precios al consumidor (INPC) Subyacente Servicios Otros Servicios
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 SP74630: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP56337: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP56385: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios Frutas y Verduras
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP56386: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Agropecuarios Pecuarios
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP74631: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP56373: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno Energéticos
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 SP74640: # Subíndices subyacente y complementarios Precios al consumidor (INPC) No Subyacente Energéticos y Tarifas Autorizadas por el Gobierno Tarifas Autorizadas por el Gobierno
-   transformation: 1
+   transformation: 5
    group: "Group 7"
 
 

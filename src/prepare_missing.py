@@ -90,7 +90,7 @@ def prepare_missing(rawdata, tcode):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv('./data/MD_2024_06_04.csv')        # read in data
+    data = pd.read_csv('./data/MD_2024_06_19.csv')        # read in data
 
     #### DATA GROUPS ####
     setting_series = read_yaml("src/settings.yaml")
