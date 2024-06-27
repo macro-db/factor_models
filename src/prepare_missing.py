@@ -90,18 +90,19 @@ def prepare_missing(rawdata, tcode):
 
 
 if __name__ == "__main__":
-    data = pd.read_csv('./data/MD_2024_06_19.csv')        # read in data
+    data = pd.read_csv('./data/QD_2024_06_24.csv')        # read in data
 
     #### DATA GROUPS ####
     setting_series = read_yaml("src/settings.yaml")
     indicator_series = read_yaml("src/indicators.yaml")
     series = {**setting_series, **indicator_series}
 
+    print(series[130822])
     tcode = {str(serie) : series[serie]['transformation'] for serie in series}
 
     data.set_index('fecha', inplace=True, drop=True)
     data.index.name = 'date'
 
     transformed_data = prepare_missing(data, tcode)
-    transformed_data.to_csv('./data/transformed.csv')
+    transformed_data.to_csv('./data/QD_transformed.csv')
 
